@@ -14,8 +14,8 @@ struct Card {
             std::cerr << suitn << " is not a valid suit.\n";
             valid = false;
         }
-        else if (val < 1 || val > 13) {
-            std::cerr << val << " is not a valid card value.\n";
+        else if (valn < 1 || valn > 13) {
+            std::cerr << valn << " is not a valid card value.\n";
             valid = false;
         }
         else {
