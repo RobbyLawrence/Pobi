@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/robertlawrence/Pobi/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/robertlawrence/Pobi/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/pobi.dir/src/pobi.cpp.o -c /Users/robertlawrence/Pobi/src/pobi.cpp",
+  "file": "/Users/robertlawrence/Pobi/src/pobi.cpp",
+  "output": "CMakeFiles/pobi.dir/src/pobi.cpp.o"
+}
+]
