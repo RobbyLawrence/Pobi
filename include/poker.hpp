@@ -7,9 +7,16 @@ std::vector<size_t> vals = {1,2,3,4,5,6,7,8,9,10,11,12,13};
 struct Card {
     char suit;
     size_t val;
+    bool valid;
     Card(char suitn, size_t valn) {
+        valid = true;
         if (suitn != 'H' && suitn != 'C' && suitn != 'S' && suitn != 'D') {
             std::cerr << suitn << " is not a valid suit.\n";
+            valid = false;
+        }
+        else if (val < 1 || val > 13) {
+            std::cerr << val << " is not a valid card value.\n";
+            valid = false;
         }
         else {
             suit = suitn;
